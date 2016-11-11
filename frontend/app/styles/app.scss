@@ -1,7 +1,17 @@
-$navbar-default-color: #ff8c00;
+$navbar-inverse-bg: #ff6767;
+
 @import "bootstrap";
 
 .navbar-brand {
-  padding: 15px 0px;
+  padding: 15px 15px 15px 0px;
   color: white !important;
+}
+
+* {
+  border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+}
+
+body {
+  background-color: #eeeeee;
 }

@@ -13,5 +13,10 @@ $navbar-inverse-bg: #ff6767;
 }
 
 body {
+  padding-top: 10px;
   background-color: #eeeeee;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
 }

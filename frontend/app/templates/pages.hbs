@@ -5,3 +5,9 @@
   <li>{{page.body}}</li>
   {{/each}}
 </ul>
+
+
+{{input class="form-control" placeholder="title." rows="7" value=title}}
+{{textarea class="form-control" placeholder="Your message." rows="7" value=body}}
+<button  class="btn btn-primary btn-lg btn-block" {{action 'saveStuff'}}>Save Page</button>
+

@@ -66,9 +66,7 @@ router.route('/pages')
   Page.find(function(err, pages) {
     if (err)
       res.send(err)
-
-    console.log({"data": pages});
-    res.json({"data": pages});
+    res.json({"pages": pages});
   });
 
 });
